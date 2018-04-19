@@ -6,6 +6,11 @@
   "page_objects_path" : "",
   "globals_path" : "",
 
+  "selenium" : {
+    "start_process" : false,
+    "port" : 4444
+  },
+
   "test_settings" : {
     "default" : {
       "launch_url" : "http://localhost",
@@ -28,7 +33,10 @@
         }
       },
       "desiredCapabilities": {
-        "browserName": "chrome"
+        "browserName": "chrome",
+        "chromeOptions" : {
+          "args" : ["window-size=1440,900"]
+        }
       }
     }
   }
