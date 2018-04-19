@@ -1,0 +1,27 @@
+{
+  "name": "module-test-automation",
+  "version": "0.0.1",
+  "description": "something",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yvarBergman/Module-Test-Automation.git"
+  },
+  "keywords": [
+    "test",
+    "automation"
+  ],
+  "author": "Yvar Bergman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yvarBergman/Module-Test-Automation/issues"
+  },
+  "homepage": "https://github.com/yvarBergman/Module-Test-Automation#readme",
+  "devDependencies": {
+    "nightwatch": "^0.9.20",
+    "nightwatch-vrt": "^0.2.6"
+  }
+}

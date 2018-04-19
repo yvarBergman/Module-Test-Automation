@@ -1,0 +1,35 @@
+{
+  "src_folders" : ["tests"],
+  "output_folder" : "reports",
+  "custom_commands_path" : "node_modules/nightwatch-vrt/commands",
+  "custom_assertions_path" : "node_modules/nightwatch-vrt/assertions",
+  "page_objects_path" : "",
+  "globals_path" : "",
+
+  "test_settings" : {
+    "default" : {
+      "launch_url" : "http://localhost",
+      "selenium_port"  : 4444,
+      "selenium_host"  : "localhost",
+      "silent": true,
+      "screenshots" : {
+        "enabled" : false,
+        "path" : ""
+      },
+      "globals": {
+        "visual_regression_settings": {
+            "latest_screenshots_path": "screenshots/latest",
+            "latest_suffix": "",
+            "baseline_screenshots_path": "screenshots/baseline",
+            "baseline_suffix": "",
+            "diff_screenshots_path": "screenshots/diff",
+            "diff_suffix": "",
+            "threshold": 0.05
+        }
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome"
+      }
+    }
+  }
+}
