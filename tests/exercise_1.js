@@ -1,8 +1,7 @@
 module.exports = {
   '@tags' : ['exercise_1'],
   'visit calco.nl' : function(browser) {
-    browser.url()
-
+    browser.url('https://www.calco.nl')
            .end();
   }
 }

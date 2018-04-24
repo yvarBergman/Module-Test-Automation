@@ -1,8 +1,8 @@
 module.exports = {
   '@tags' : ['exercise_2'],
-  'test 1' : function(browser) {
-    browser.url()
-
+  'assert title' : function(browser) {
+    browser.url('https://www.calco.nl')
+           .assert.title('Calco - Calco') //change value to 'Calco Masterclass' to let test fail
            .end();
   }
 }
