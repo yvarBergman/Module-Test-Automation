@@ -10,10 +10,6 @@ To get started a few things are required:
    - Install the project dependencies by running the command: 'npm install'
    - Install nightwatch (http://nightwatchjs.org) globally by running the command: 'npm install -g nightwatch'
    - Download selenium-standalone globally by running the command: 'npm install -g selenium-standalone', then install the drivers themselves by running the command 'selenium-standalone install'
-   
+
 Optional:
    - It is advised to use a Git Client (like Github Desktop, GitKraken, Sourcetree etc.) to have a clearer understanding of your branches
-   
-
-
-
