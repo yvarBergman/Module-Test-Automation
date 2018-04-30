@@ -1,12 +1,10 @@
 module.exports = {
   '@tags' : ['exercise_4'],
-  'search' : function(browser) {
+  'button xpath' : function(browser) {
     browser.url('https://www.calco.nl')
-           .click('body > div.pageWrapper > header > div.bottomBar.container > nav > ul > li.level-1.search > a > span')
-           .setValue('.js-searchInputModal','traineeship')
-           .click('#search > button')
-           .assert.urlEquals('https://www.calco.nl/zoeken?q=traineeship') 
-           .assert.containsText('body > div.pageWrapper > section.hero.sub > div > div > div > div > div', '12 resultaten voor traineeship')
+           .useXpath()
+           .click('/html/body/div[2]/header/div[2]/div[2]/a')
+           .assert.urlEquals('https://www.werkenbijcalco.nl/')
            .end();
   }
 }
