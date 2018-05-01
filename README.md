@@ -15,7 +15,7 @@ To get started a few things are required:
 Optional:
    - It is advised to use a Git Client to have a clearer understanding of your branches
 
-#Run your tests
+# Run your tests
 Once you thought of an solution for the exercises, you will probably want to run them to see if they work. For this you need to do the following:
   - Start a selenium server. You can do this by opening a command prompt and run the command 'selenium-standalone start'
   - Open another command prompt and run the following command to run your test: 'nightwatch --tag exercise_1'. Since Nightwatch allows the use of tags, I went ahead added tags to all the seperate exercise files. This means that you can run exercise 1 by using the command 'nightwatch --tag exercise_1', exercise 2 by running 'nightwatch --tag exercise_2' etc.
