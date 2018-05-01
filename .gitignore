@@ -3,4 +3,6 @@ node_modules
 
 #nightwatch
 reports
-screenshots
+screenshots/baseline
+screenshots/diff
+screenshots/latest
