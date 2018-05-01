@@ -1,6 +1,6 @@
 module.exports = {
   '@tags' : ['exercise_7'],
-  'Exercise 7' : function(browser) {
+  'calco search' : function(browser) {
     browser.url()
 
            .end();

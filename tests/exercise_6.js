@@ -1,6 +1,6 @@
 module.exports = {
   '@tags' : ['exercise_6'],
-  'Exercise 6' : function(browser) {
+  'google search + clear' : function(browser) {
     browser.url()
 
            .end();

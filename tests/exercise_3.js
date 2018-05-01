@@ -1,6 +1,6 @@
 module.exports = {
   '@tags' : ['exercise_3'],
-  'Exercise 3' : function(browser) {
+  'click' : function(browser) {
     browser.url()
 
            .end();

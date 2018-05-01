@@ -1,6 +1,6 @@
 module.exports = {
   '@tags' : ['exercise_4'],
-  'Exercise 4' : function(browser) {
+  'xpath selectors' : function(browser) {
     browser.url()
 
            .end();
